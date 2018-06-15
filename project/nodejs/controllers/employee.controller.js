@@ -12,6 +12,7 @@ router.get('/', (req, res) => {
     });
 });
 
+
 router.post('/', (req, res) => {
     let emp = new Employee({
         name: req.body.name,
